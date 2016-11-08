@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf8"?>
+<Configure class="org.eclipse.jetty.server.Server">
+    <Set name="port">8888</Set>
+</Configure>

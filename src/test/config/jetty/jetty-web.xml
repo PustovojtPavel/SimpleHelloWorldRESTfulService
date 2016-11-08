@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf8"?>
+<Configure class="org.eclipse.jetty.webapp.WebAppContext">
+    <Set name="ContextPath">/hello_world</Set>
+    <Set name="war"><SystemProperty name="jetty.base" default="."/>/src/main/webapp
+    </Set>
+</Configure>
